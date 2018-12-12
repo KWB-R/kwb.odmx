@@ -1,0 +1,15 @@
+Package: kwb.odmx
+Type: Package
+Title: Extended functions to access the data in an ODM database
+Version: 0.1.99
+Date: 2016-09-19
+Author: Hauke Sonnenberg
+Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
+Description: Extended functions to access the data in an ODM database.
+Imports:
+    kwb.utils,
+    kwb.db,
+    kwb.odm
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 5.0.1

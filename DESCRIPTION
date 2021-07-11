@@ -1,7 +1,7 @@
 Package: kwb.odmx
 Type: Package
 Title: Extended functions to access the data in an ODM database
-Version: 0.1.99
+Version: 0.2.0
 Authors@R: 
     c(person(given = "Hauke",
              family = "Sonnenberg",

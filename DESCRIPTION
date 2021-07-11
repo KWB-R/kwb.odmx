@@ -1,15 +1,31 @@
-Package: kwb.odmx
 Type: Package
+Package: kwb.odmx
 Title: Extended functions to access the data in an ODM database
-Version: 0.1.99
-Date: 2016-09-19
-Author: Hauke Sonnenberg
-Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
+Version: 0.2.0
+Authors@R: 
+    c(person(given = "Hauke",
+             family = "Sonnenberg",
+             role = c("aut", "cre"),
+             email = "hauke.sonnenberg@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0001-9134-2871")),
+      person(given = "Michael",
+             family = "Rustler",
+             role = "ctb",
+             email = "michael.rustler@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0003-0647-7726")),
+      person(given = "Kompetenzzentrum Wasser Berlin gGmbH (KWB)",
+             role = "cph"))
 Description: Extended functions to access the data in an ODM database.
+License: MIT + file LICENSE
+URL: https://github.com/KWB-R/kwb.odmx
+BugReports: https://github.com/KWB-R/kwb.odmx/issues
 Imports:
-    kwb.utils,
     kwb.db,
-    kwb.odm
-License: GPL-2
+    kwb.odm,
+    kwb.utils
+Remotes:
+    github::kwb-r/kwb.db,
+    github::kwb-r/kwb.odm,
+    github::kwb-r/kwb.utils
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.1
